@@ -256,3 +256,64 @@ nav{
 
 }
 /* End Appointment style */
+.blog-container-title{
+    text-align: center;
+    margin-top: 55px;
+
+}
+.blog-title{
+    font-size: 50px;
+    color:black; 
+
+}
+.blog-title h1>span{
+    color:rgb(240, 21, 21);
+}
+.blog-description{
+    font-size: 22px;
+    color:black; 
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+
+}
+.blog-all-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+    padding: 30px;
+}
+
+.blog-card{
+    width: 350px;
+    height: 430px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.blog-card-img{
+    width:350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.blog-card-text{
+    padding: 15px;
+}
+.blog-card-title{
+    font-size:24px;
+    color: #363535;
+    font-weight: 700;
+}
+.blog-card-description{
+    font-size:18px;
+    color: #4c4848;
+    font-weight:400;
+    padding: 15px 0px;
+}
+
+.blog-card-box >:hover {
+        transform: scale(1.1); 
+        
+}
