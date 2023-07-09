@@ -1,4 +1,4 @@
-/* Sharing common style */
+/* Start Sharing common style */
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,23 @@
 a{
     text-decoration: none;
 }
-/* Menu bar style */
+.primary-button{
+    padding: 15px 35px;
+    font-size: 16px;
+    border: 1px solid #F52C2C;
+    color:white;
+    margin: 5px;
+    background-color: #F52C2C;
+    border-radius: 5px;
+}
+.primary-button:hover{
+    border: 1px solid white;
+    color:#F52C2C;
+    background-color: white;
+}
+/* End Sharing common style */
+
+/* Start Menu bar style */
 nav{
     background-color: rgba(172, 166, 166, 0.5);
     padding:15px;
@@ -39,4 +55,38 @@ nav{
 .menubar-list-item:hover{
     color: #F94C30;
 }
-/* Banner style */
+/* End Menu bar style */
+/* Start Banner style */
+.banner-container{
+    width: 100%;
+    height: 100vh;
+    background-image:url("../asset/image/background.jpg"),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-title{
+    font-size: 86px;
+    font-weight: 900;
+    color: white;
+}
+.banner-title >span{
+    color: #F52C2C;
+}
+.banner-description{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.banner-button{
+    margin-right: 25px;
+}
+
+/* End Banner style */
